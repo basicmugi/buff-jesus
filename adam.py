@@ -63,6 +63,8 @@ async def say(ctx, *args):
 async def kate(ctx):
     await client.say("more like cat-eeh lole")
 
-
+@client.command (pass_context=True)
+async def tsukiest(ctx):
+    await client.say("i swear to god TSUKIEST if i see ur fucking face anywhere i dont fucking care where it is you dead you fucking motherfucker son of a bitch PIECE OF SHIT i hope you quit cafe and take your nasty bullshit with you bithc homosexual faggot")
 
 client.run("NDAwNjk1NDYzMTIyMDQyODgw.DV4VVw.dpCVT4Vw6D4HUJa2BrIbv4H8SUE")                            
