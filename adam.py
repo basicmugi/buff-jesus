@@ -59,6 +59,10 @@ async def say(ctx, *args):
     await client.delete_message(ctx.message)
     return await client.say(mesg)
 
+@client.command(pass_context=True)
+async def kate(ctx):
+    await client.say("more like cat-eeh lole")
+
 
 
 client.run("NDAwNjk1NDYzMTIyMDQyODgw.DV4VVw.dpCVT4Vw6D4HUJa2BrIbv4H8SUE")                            
