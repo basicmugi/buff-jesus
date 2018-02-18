@@ -77,8 +77,10 @@ async def kryparro (ctx):
 async def sami (ctx):
     await client.say("Are you seriously considering even for a moment that the gutter taste of Pepsi comes even close to the nirvana that is COCA-COLA®? Only philistines prefer the soft sugar garbage that is Pepsi, why drink it when you can enjoy the more refined and sharp crisp zing of COCA-COLA®? Drinking the leading brand has clinically proven that the opposite genders desire those who can enjoy the sophisticated essence that only COCA-COLA® can inspire within you.")
 
-
-
+   
+@client.command(pass_context=True)
+async def hate(ctx):
+    await client.say("niggers")
 
 
 
