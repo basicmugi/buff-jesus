@@ -82,6 +82,13 @@ async def sami (ctx):
 async def hate(ctx):
     await client.say("niggers")
 
-
+@client.command(pass_context=True)
+async def luke(ctx):
+    await client.say("LOL WHITE BOYYYYY")
+    
+@client.command(pass_context=True)
+async def mugi(ctx):
+    await client.say("fat nigger")
+   
 
 client.run("NDAwNjk1NDYzMTIyMDQyODgw.DV4VVw.dpCVT4Vw6D4HUJa2BrIbv4H8SUE")                            
