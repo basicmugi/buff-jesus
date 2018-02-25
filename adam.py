@@ -89,6 +89,9 @@ async def luke(ctx):
 @client.command(pass_context=True)
 async def mugi(ctx):
     await client.say("fat nigger")
-   
+
+
+
+
 
 client.run("NDAwNjk1NDYzMTIyMDQyODgw.DV4VVw.dpCVT4Vw6D4HUJa2BrIbv4H8SUE")                            
