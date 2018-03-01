@@ -90,7 +90,9 @@ async def luke(ctx):
 async def mugi(ctx):
     await client.say("fat nigger")
 
-
+@client.command(pass_context=True)
+async def brona(ctx):
+    await client.say("brona where are you :(")
 
 
 
