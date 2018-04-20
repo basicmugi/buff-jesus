@@ -28,37 +28,6 @@ async def on_ready():
     print("hi brona is my gf")
     await client.change_status(discord.Game(name="brona's favorite game"))
 
-
-@client.command(pass_context=True)
-async def bae(ctx):
-    await client.say("brona")
-
-
-@client.command(pass_context=True)
-async def eoin(ctx):
-    await client.say("epic gamer nazi")
-
-@client.command(pass_context=True)
-async def belma(ctx):
-    await client.say("super op gamer!!!!!!!! XD")
-
-@client.command(pass_context=True)
-async def gf(ctx):
-    await client.say("brona ofc")
-
-
-@client.command(pass_context=True)
-async def cheater(ctx):
-    await client.say("NEVER")
-
-@client.command(pass_context=True)
-async def mintie(ctx):
-    await client.say("she dumb lole")
-
-@client.command(pass_context=True)
-async def mintieswirl(ctx):
-    await client.say("she dumb lole")
-
 @client.command (pass_context=True)
 async def joke(ctx):
     await client.say("I'm not loyal to brona")
@@ -89,11 +58,6 @@ async def kryparro (ctx):
 @client.command(pass_context=True)
 async def sami (ctx):
     await client.say("Are you seriously considering even for a moment that the gutter taste of Pepsi comes even close to the nirvana that is COCA-COLA®? Only philistines prefer the soft sugar garbage that is Pepsi, why drink it when you can enjoy the more refined and sharp crisp zing of COCA-COLA®? Drinking the leading brand has clinically proven that the opposite genders desire those who can enjoy the sophisticated essence that only COCA-COLA® can inspire within you.")
-
-   
-@client.command(pass_context=True)
-async def hate(ctx):
-    await client.say("niggers")
 
 @client.command(pass_context=True)
 async def luke(ctx):
