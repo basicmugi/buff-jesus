@@ -75,8 +75,4 @@ async def brona(ctx):
 async def clayfingers(ctx):
     await client.say("Clay, if you don't have positive thing to say or good thing to say, SHUT YOUR BIG VAJINA MOUTH, because you're just projecting yourself as nasty as junk foods thats why you deserve to be flushed down the toilet with your POOPS")
 
-
-
-
-
 client.run("NDAwNjk1NDYzMTIyMDQyODgw.DV4VVw.dpCVT4Vw6D4HUJa2BrIbv4H8SUE")           
