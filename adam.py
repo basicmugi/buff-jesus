@@ -6,22 +6,6 @@ import time
 import praw
 import random
 
-Client = discord.Client()
-client = commands.Bot(command_prefix = "?")
-
-reddit = praw.Reddit(client_id='SInQqtYzEYKiGQ',
-                     client_secret='XzlfPf9-36WmiPdyGOiR0SzeYy0',
-                     user_agent='RALF:com.smileys.freesmileys:v0.1')
-
-@client.command()
-async def smiley():
-    memes_submissions = reddit.subreddit('freesmiley').hot()
-    post_to_pick = random.randint(1, 10)
-    for i in range(0, post_to_pick):
-        submission = next(x for x in memes_submissions if not x.stickied)
-
-    await client.say(submission.url)
-
 
 @client.event
 async def on_ready():
