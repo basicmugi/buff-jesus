@@ -1,1 +1,1 @@
-worker: python adam.py
+worker: python3 adam.py
